@@ -1,0 +1,42 @@
+.he_border1:hover .he_border1_img {
+    position: absolute;
+    transform: scale(1.1);
+    opacity: 0.5
+}
+.he_border1:hover .he_border1_caption::before,
+.he_border1:hover .he_border1_caption::after {
+    opacity: 1;
+    transform: scale(1)
+}
+.he_border1:hover .he_border1_caption_p {
+    top: 45%;
+    opacity: 1
+}
+.he_border2:hover .he_border2_img {
+    position: absolute;
+    transform: scale(1.1);
+    opacity: 0.5
+}
+.he_border2:hover .he_border2_caption::before,
+.he_border2:hover .he_border2_caption::after {
+    opacity: 1;
+    transform: scale(1)
+}
+.he_border2:hover .he_border2_caption_p {
+    top: 45%;
+    opacity: 1
+}
+.he_3DFlipX_inner:hover>div.he_3DFlipX_img {
+    transform: rotateX(180deg)
+}
+.he_3DFlipX_inner:hover .he_3DFlipX_caption {
+    opacity: 1;
+    transform: rotateX(0)
+}
+.he_3DFlipY_inner:hover>div.he_3DFlipY_img {
+    transform: rotateY(180deg)
+}
+.he_3DFlipY_inner:hover .he_3DFlipY_caption {
+    opacity: 1;
+    transform: rotateY(0)
+}
